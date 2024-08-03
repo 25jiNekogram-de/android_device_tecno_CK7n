@@ -107,6 +107,9 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0.vendor \
     libdrm.vendor 
 
+# Fingerprint
+TARGET_HAS_UDFPS := true
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
