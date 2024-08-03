@@ -284,10 +284,9 @@
     <!-- Amount of time in ms the user needs to press the relevant keys to trigger the screenshot chord -->
     <integer name="config_screenshotChordKeyTimeout">0</integer>
 
-    <!-- Pulled from Ren's TrebleDroid Pova 4 Pro overlay -->
     <bool name="config_dozeAfterScreenOff">true</bool>
-    <integer name="config_defaultPeakRefreshRate">90</integer>
-    <integer name="config_defaultRefreshRate">90</integer>
+    <integer name="config_defaultPeakRefreshRate">120</integer>
+    <integer name="config_defaultRefreshRate">120</integer>
     <integer name="config_screenBrightnessDoze">5</integer>
      <!-- Determines whether the shell features all run on another thread.  -->
      <bool name="config_enableShellMainThread">true</bool>
@@ -314,17 +313,4 @@
      during initialization when the setting is still null. -->
      <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
-     <!-- An array of arrays of side fingerprint sensor properties relative to each display.
-     Note: this value is temporary and is expected to be queried directly
-     from the HAL in the future. -->
-     <array name="config_sfps_sensor_props" translatable="false">
-          <item>@array/config_sfps_sensor_props_0</item>
-     </array>
-
-     <array name="config_sfps_sensor_props_0" translatable="false">
-          <item></item>     <!-- displayId -->
-          <item>1080</item> <!-- sensorLocationX -->
-          <item>1050</item>  <!-- sensorLocationY -->
-          <item>210</item>  <!-- sensorRadius -->
-     </array>
 </resources>

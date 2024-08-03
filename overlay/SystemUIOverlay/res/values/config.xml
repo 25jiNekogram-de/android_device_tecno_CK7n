@@ -28,7 +28,7 @@
 
 
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
-    <integer name="config_screenRecorderMaxFramerate">90</integer>
+    <integer name="config_screenRecorderMaxFramerate">120</integer>
 
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 </resources>
