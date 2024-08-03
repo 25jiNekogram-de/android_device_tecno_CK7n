@@ -324,4 +324,13 @@
           <item>2100</item> <!-- <item>sensorLocationY</item> -->
           <item>100</item>  <!-- <item>sensorRadius</item> -->
      </integer-array>
+
+     <!-- HBM type of UDFPS overlay.
+            0 - GLOBAL HBM 
+            1 - LOCAL HBM
+     -->
+     <integer name="config_udfpsHbmType">1</integer>
+
+     <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
+     <integer name="config_udfps_illumination_transition_ms">0</integer>
 </resources>
