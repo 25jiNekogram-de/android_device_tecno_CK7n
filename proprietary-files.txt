@@ -26,7 +26,6 @@ vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/AudioLog_dynamic.xml
 vendor/lib/hw/audio.primary.mediatek.so
 vendor/lib/hw/audio.r_submix.mediatek.so
-vendor/lib/hw/awinic.audio.effect.so
 vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib/audio_common-aidl-cpp.so
@@ -412,7 +411,6 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.7.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
-vendor/priv-app/GpuGameDriver.mt6789/GpuGameDriver.mt6789.apk
 
 # DMC
 vendor/bin/dmc_core
@@ -448,32 +446,12 @@ vendor/lib64/liburee_meta_drmkeyinstall.so
 vendor/lib64/libwvhidl.so
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-vendor/bin/hw/vendor.fptool.fingerprint@2.0-service
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/etc/init/vendor.fptool.fingerprint@2.0-service.rc
 -vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
-vendor/etc/fsfp-config.xml
-vendor/lib64/hw/fsfingerprint.default.so
-vendor/lib64/hw/vendor.fptool.fingerprint@2.0-impl.so
-vendor/lib64/vendor.fptool.fingerprint@2.0-adapter-helper.so
-vendor/lib64/vendor.fptool.fingerprint@2.0.so
 
 # Firmware
-vendor/firmware/aw87xxx_acf.bin
-vendor/firmware/aw8622x_haptic.bin
-vendor/firmware/aw8622x_osc_rtp_12K_10s.bin
-vendor/firmware/aw8622x_rtp.bin
-vendor/firmware/aw8624_haptic.bin
-vendor/firmware/aw8624_osc_rtp_24K_5s.bin
-vendor/firmware/aw8624_rtp_lighthouse.bin
-vendor/firmware/aw8624_rtp_silk.bin
-vendor/firmware/aw8624_rtp.bin
-vendor/firmware/awinic_params.bin
 vendor/firmware/BT_FW.cfg
 vendor/firmware/Conf_MultipleTest.ini
 vendor/firmware/fm_cust.cfg
-vendor/firmware/focaltech_ts_fw_0.bin
 vendor/firmware/gt9886_cfg_90hz6785.bin
 vendor/firmware/gt9886_cfg_90hz6877.bin
 vendor/firmware/gt9886_cfg_90hz6885.bin
@@ -1043,7 +1021,6 @@ vendor/lib/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib64/mt6789/libmtk_drvb.so
-vendor/lib64/mt6789/librmsclib1.so
 vendor/lib64/ese_client.so
 vendor/lib64/ese_spi_nxp.so
 vendor/lib64/lbs_hidl_service-impl.so
@@ -1211,8 +1188,6 @@ vendor/bin/starter
 vendor/bin/stp_dump3
 vendor/bin/stroke
 vendor/bin/xcap
-vendor/etc/apdb/APDB_MT6789___W2227
-vendor/etc/apdb/APDB_MT6789___W2227_ENUM
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
@@ -1339,14 +1314,12 @@ vendor/lib64/librgbwlightsensor.so
 vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin
 vendor/app/mcRegistry/030c0000000000000000000000000000.drbin
 vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin
-vendor/app/mcRegistry/04010000000000000000000000000000.tabin
 vendor/app/mcRegistry/05120000000000000000000000000001.drbin
 vendor/app/mcRegistry/05120000000000000000000000000001.tlbin
 vendor/app/mcRegistry/06090000000000000000000000000000.drbin
 vendor/app/mcRegistry/06090000000000000000000000000000.tlbin
 vendor/app/mcRegistry/0706000000000000000000000000004d.tlbin
 vendor/app/mcRegistry/07061000000000000000000000000000.tlbin
-vendor/app/mcRegistry/07090000000000000000000000000000.drbin
 vendor/app/mcRegistry/07170000000000000000000000000000.drbin
 vendor/app/mcRegistry/07170000000000000000000000000000.tlbin
 vendor/app/mcRegistry/08030000000000000000000000000000.tabin
