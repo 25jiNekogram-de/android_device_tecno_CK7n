@@ -1,4 +1,4 @@
-# Device tree for the Tecno Pova 4 Pro (LG8n)
+# Device tree for the Tecno Pova 4 Pro (CK7n)
 
 ## Device specifications
 
