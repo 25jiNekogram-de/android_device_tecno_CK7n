@@ -313,4 +313,15 @@
      during initialization when the setting is still null. -->
      <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
+     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
+     <integer-array name="config_udfps_sensor_props" translatable="false">
+	  <!--
+            <item>sensorLocationX</item>
+            <item>sensorLocationY</item>
+            <item>sensorRadius</item>
+          -->
+          <item>540</item>  <!-- <item>sensorLocationX</item> -->
+          <item>2100</item> <!-- <item>sensorLocationY</item> -->
+          <item>100</item>  <!-- <item>sensorRadius</item> -->
+     </integer-array>
 </resources>
