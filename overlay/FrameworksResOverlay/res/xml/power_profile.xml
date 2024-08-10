@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-    <item name="ambient.on.display0">0.1</item>
-    <item name="screen.on.display0">90.3</item>
-    <item name="screen.full.display0">514</item>
-    <item name="bluetooth.active">23.4</item>
+    <item name="ambient.on">0.1</item>
+    <item name="screen.on">104.3</item>
+    <item name="screen.full">395.3</item>
+    <item name="bluetooth.active">9.1</item>
     <item name="bluetooth.on">1.1</item>
     <item name="wifi.on">0.1</item>
-    <item name="wifi.active">243</item>
-    <item name="wifi.scan">44.8</item>
-    <item name="audio">34.3</item>
-    <item name="video">66.2</item>
-    <item name="camera.flashlight">229.8</item>
-    <item name="camera.avg">532.9</item>
-    <item name="gps.on">31.5</item>
+    <item name="wifi.active">257.4</item>
+    <item name="wifi.scan">44.4</item>
+    <item name="audio">39.9</item>
+    <item name="video">110.5</item>
+    <item name="camera.flashlight">176.6</item>
+    <item name="camera.avg">854</item>
+    <item name="gps.on">26.4</item>
     <item name="radio.active">15</item>
-    <item name="radio.scanning">50.7</item>
+    <item name="radio.scanning">55.8</item>
     <array name="radio.on">
-        <value>3.9</value>
-        <value>3.9</value>
+        <value>1.4</value>
+        <value>1.4</value>
     </array>
     <array name="cpu.clusters.cores">
         <value>6</value>
@@ -111,7 +111,7 @@
         <value>167.57</value>
         <value>177.02</value>
     </array>
-    <item name="cpu.idle">5.07</item>
+    <item name="cpu.idle">8.3</item>
     <item name="cpu.suspend">5.07</item>
     <item name="cpu.active">9.89</item>
     <item name="cpu.cluster_power.cluster0">2.11</item>
@@ -207,7 +207,7 @@
     <array name="memory.bandwidths">
         <value>22.7</value>
     </array>
-    <item name="battery.capacity">6000</item>
+    <item name="battery.capacity">5000</item>
     <item name="wifi.controller.idle">15.2</item>
     <item name="wifi.controller.rx">296.22</item>
     <item name="wifi.controller.tx">426.91</item>
