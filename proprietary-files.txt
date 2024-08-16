@@ -1,4 +1,4 @@
-## ck7n package version: CK7n-H894ABC-T-GL-240416V2496, unless stated otherwise
+## ck7n package version: CK7n-H894ABC-U-GL-240703V1186, unless stated otherwise
 
 # AEE
 vendor/lib/libaedv.so
