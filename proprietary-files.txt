@@ -1140,11 +1140,7 @@ vendor/firmware/gt9896s_firmware_6893v04.bin
 vendor/firmware/gt9896s_firmware_6893v05.bin
 vendor/firmware/gt9896s_firmware_6895v01.bin
 vendor/firmware/gt9896s_firmware_6983v01.bin
-vendor/firmware/ilitek_ts_fw_00.bin
-vendor/firmware/ilitek_ts_fw_03.bin
 vendor/firmware/lib3a.ccu
-vendor/firmware/mp_00.ini
-vendor/firmware/mp_03.ini
 vendor/firmware/mt6627_fm_v1_coeff.bin
 vendor/firmware/mt6627_fm_v1_patch.bin
 vendor/firmware/mt6630_fm_v1_coeff.bin
@@ -1172,8 +1168,10 @@ vendor/firmware/soc2_2_ram_wifi_1d_1_hdr.bin
 vendor/firmware/soc2_2_ram_wifi_1e_1_hdr.bin
 vendor/firmware/soc_fm_v1_coeff.bin
 vendor/firmware/soc_fm_v1_patch.bin
-vendor/firmware/txpowerctrl.cfg
 vendor/firmware/wifi.cfg
+vendor/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin
+vendor/firmware/WIFI_RAM_CODE_soc2_2_1e_1.bin
+vendor/firmware/WMT_SOC.cfg
 
 # GNSS | Cacerts | Carrier Config
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml
