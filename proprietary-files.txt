@@ -2,11 +2,8 @@
 
 # Audio (Additional Libs)
 vendor/lib/audio_common-aidl-cpp.so
-vendor/lib/hw/awinic.audio.effect.so
-vendor/lib/libkaraoke.so
 vendor/lib/libTransNS.so
 vendor/lib64/audio_common-aidl-cpp.so
-vendor/lib64/libkaraoke.so
 vendor/lib64/libTransNS.so
 
 # Audio Configs
@@ -125,35 +122,29 @@ vendor/etc/audio_param/Volume_AudioParam.xml
 vendor/etc/audio_param/Volume_ParamUnitDesc.xml
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/etc/init/vendor.fpsensor.rc
+vendor/bin/hw/android.hardware.biometrics.face@1.0-service.example
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-mediatek
+vendor/etc/init/android.hardware.biometrics.face@1.0-service.rc
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-mediatek.rc
 vendor/etc/init/vendor.goodix.rc
--vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
--vendor/etc/vintf/manifest/manifest_chipone.xml
-vendor/lib64/hw/fpsensor_fingerprint.default.so
-vendor/lib64/libfp_ext_svc2.so
+vendor/etc/permissions/android.hardware.biometrics.face.xml
+-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service-mediatek.xml
+-vendor/etc/vintf/manifest/manifest_fingerprint.xml
+vendor/lib64/android.hardware.biometrics.face@1.0.so
+vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/hw/gf_fingerprint.default.so
-vendor/lib64/libgf_ca.so
-vendor/lib64/libgf_factory_test.so
 vendor/lib64/libgf_hal.so
-vendor/lib64/libgoodixhwfingerprint.so
-vendor/lib64/libtneclient.so
 vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so
+vendor/lib64/vendor.mediatek.hardware.biometrics.fingerprint@2.1.so
 
 # Firmware
 vendor/firmware/BT_FW.cfg
 vendor/firmware/Conf_MultipleTest_01.ini
-vendor/firmware/Conf_MultipleTest_02.ini
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1e_1.bin
 vendor/firmware/WMT_SOC.cfg
-vendor/firmware/aw87xxx_acf.bin
-vendor/firmware/awinic_params.bin
 vendor/firmware/fm_cust.cfg
 vendor/firmware/focaltech_ts_fw_01.bin
-vendor/firmware/focaltech_ts_fw_02.bin
 vendor/firmware/gt9886_cfg_6781v01.bin
 vendor/firmware/gt9886_cfg_6785v96.bin
 vendor/firmware/gt9886_cfg_6785v99.bin
