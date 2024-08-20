@@ -10,6 +10,7 @@ KERNEL_PATH := $(DEVICE_PATH)-kernel
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor:64
+TARGET_HAS_UDFPS := true
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
