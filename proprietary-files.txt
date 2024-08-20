@@ -1,4 +1,4 @@
-## x6837 package version: X6837-H897ABCDEFQRZAaAb-T-BASE-240313V1154, unless stated otherwise
+## ck7n package version: CK7n-H894ABC-U-GL-240703V1186, unless stated otherwise
 
 # Audio (Additional Libs)
 vendor/lib/audio_common-aidl-cpp.so

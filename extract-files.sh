@@ -14,9 +14,9 @@ fi
 
 set -e
 
-export DEVICE=X6837
+export DEVICE=CK7n
 export DEVICE_COMMON=mt6789-common
-export VENDOR=infinix
+export VENDOR=tecno
 export VENDOR_COMMON=transsion
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"

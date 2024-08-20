@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/X6837
+DEVICE_PATH := device/tecno/CK7n
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 # Fingerprint
@@ -16,7 +16,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2460
+TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
@@ -37,4 +37,4 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, device/transsion/mt6789-common/common.mk)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/infinix/X6837/X6837-vendor.mk)
+$(call inherit-product, vendor/tecno/CK7N/CK7n-vendor.mk)

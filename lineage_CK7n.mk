@@ -9,25 +9,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile.
-$(call inherit-product, device/infinix/X6837/device.mk)
+$(call inherit-product, device/tecno/CK7n/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-BOARD_VENDOR := Infinix
-PRODUCT_NAME := lineage_X6837
-PRODUCT_DEVICE := X6837
-PRODUCT_MANUFACTURER := INFINIX
-PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix X6837
+BOARD_VENDOR := TECNO
+PRODUCT_NAME := lineage_CK7n
+PRODUCT_DEVICE := CK7n
+PRODUCT_MANUFACTURER := TECNO
+PRODUCT_BRAND := TECNO
+PRODUCT_MODEL := TECNO CK7n
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="sys_tssi_64_armv82_infinix-user 13 TP1A.220624.014 526124 release-keys" \
-    PRODUCT_NAME=X6837-OP
+    PRODUCT_NAME=CK7n-GL
 
-BUILD_FINGERPRINT := Infinix/X6837-OP/Infinix-X6837:13/TP1A.220624.014/240313V1154:user/release-keys
+BUILD_FINGERPRINT := TECNO/CK7n-GL/TECNO-CK7n:13/TP1A.220624.014/240416V1801:user/release-keys
 
 # Time
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
